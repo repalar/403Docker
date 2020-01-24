@@ -1,4 +1,4 @@
-# Build on top of alpine linux
+# Build on top of frolvlad/alpine-gcc, which is alpine linux with a gcc c compiler 
 
 FROM frolvlad/alpine-gcc
 
