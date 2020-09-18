@@ -7,7 +7,7 @@ RUN apk add nano
 
 # Install SBCL (we've got to add the URL the package is located at to the package manager before installation)
 RUN cd /etc/apk &&\
-echo 'http://dl-cdn.alpinelinux.org/alpine/edge/testing/' >> repositories &&\
+echo 'http://dl-cdn.alpinelinux.org/alpine/edge/community/' >> repositories &&\
 apk update &&\
 apk add sbcl
 
